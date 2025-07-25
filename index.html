@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Tube TV - Stream Your Favorite Shows</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Watch Tube TV</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#featured" class="nav-link">Featured</a>
+                <a href="#plans" class="nav-link">Plans</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <button class="nav-btn">Sign In</button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <video class="hero-video" autoplay muted loop>
+            <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Watch Unlimited Movies & TV Shows</h1>
+            <p class="hero-subtitle">Stream thousands of movies, TV series, and exclusive content. Start your journey
+                today.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Start Free Trial</button>
+                <button class="btn btn-secondary">
+                    <i class="fas fa-play"></i>
+                    Watch Trailer
+                </button>
+            </div>
+            <div class="hero-features">
+                <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>No ads</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Cancel anytime</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Watch offline</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Experience entertainment like never before</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3>Unlimited Streaming</h3>
+                    <p>Stream thousands of movies and TV shows on any device, anywhere, anytime.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Download & Watch</h3>
+                    <p>Download your favorite content and watch offline during your commute or travels.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Multiple Profiles</h3>
+                    <p>Create up to 5 profiles for your family members with personalized recommendations.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Premium Content</h3>
+                    <p>Access exclusive original series, movies, and premium channels.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Multi-Device Support</h3>
+                    <p>Watch on TV, laptop, tablet, or phone with seamless synchronization.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Parental Controls</h3>
+                    <p>Keep your kids safe with robust parental controls and kid-friendly content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="plans">
+        <div class="container">
+            <div class="section-header">
+                <h2>Choose Your Plan</h2>
+                <p>Start with a free trial, upgrade or cancel anytime</p>
+            </div>
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Basic</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">8.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Watch on 1 device</li>
+                        <li><i class="fas fa-check"></i> Good video quality</li>
+                        <li><i class="fas fa-check"></i> Limited downloads</li>
+                        <li><i class="fas fa-times"></i> No premium content</li>
+                    </ul>
+                    <button class="btn btn-outline">Choose Basic</button>
+                </div>
+                <div class="plan-card popular">
+                    <div class="plan-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <h3>Standard</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">13.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Watch on 2 devices</li>
+                        <li><i class="fas fa-check"></i> HD video quality</li>
+                        <li><i class="fas fa-check"></i> Unlimited downloads</li>
+                        <li><i class="fas fa-check"></i> Some premium content</li>
+                    </ul>
+                    <button class="btn btn-primary">Choose Standard</button>
+                </div>
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Premium</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">17.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Watch on 4 devices</li>
+                        <li><i class="fas fa-check"></i> 4K + HDR quality</li>
+                        <li><i class="fas fa-check"></i> Unlimited downloads</li>
+                        <li><i class="fas fa-check"></i> All premium content</li>
+                    </ul>
+                    <button class="btn btn-outline">Choose Premium</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Watch Tube TV</h2>
+                    <p>We're revolutionizing the way you experience entertainment. Since our launch, we've been
+                        committed to bringing you the best in streaming technology and content curation.</p>
+                    <p>Our platform features thousands of movies, TV shows, documentaries, and exclusive original
+                        content. With advanced recommendation algorithms and personalized viewing experiences, we ensure
+                        you always find something you love.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>50M+</h3>
+                            <p>Happy Subscribers</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10K+</h3>
+                            <p>Movies & Shows</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>190+</h3>
+                            <p>Countries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.MJrQY6KHvxAyAlQESkqwiQHaEK?pid=Api"
+                        alt="About Watch Tube TV">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Content Section -->
+    <section id="featured" class="featured">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Content</h2>
+                <p>Discover trending movies and exclusive series</p>
+            </div>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <img src="https://cdn.dribbble.com/userupload/5919110/file/original-4fd69ed014f2e248f331b3ce341bee69.png?resize=752x&vertical=center"
+                        alt="Action Movies">
+                    <div class="featured-overlay">
+                        <h3>Action Movies</h3>
+                        <p>Heart-pounding adventures</p>
+                        <button class="btn btn-primary">Watch Now</button>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src="https://images.pexels.com/photos/3945313/pexels-photo-3945313.jpeg?auto=compress&cs=tinysrgb&w=400"
+                        alt="Drama Series">
+                    <div class="featured-overlay">
+                        <h3>Drama Series</h3>
+                        <p>Compelling storytelling</p>
+                        <button class="btn btn-primary">Watch Now</button>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src="https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=400"
+                        alt="Comedy Shows">
+                    <div class="featured-overlay">
+                        <h3>Comedy Shows</h3>
+                        <p>Laugh out loud moments</p>
+                        <button class="btn btn-primary">Watch Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Devices Section -->
+    <section id="devices" class="devices">
+        <div class="container">
+            <div class="section-header">
+                <h2>Watch Anywhere, Anytime</h2>
+                <p>Stream on all your favorite devices</p>
+            </div>
+            <div class="devices-content">
+                <div class="devices-image">
+                    <img src="https://cdn.broadbandtvnews.com/wp-content/uploads/2023/02/06115924/TvProfil-app.jpeg"
+                        alt="Multiple Devices">
+                </div>
+                <div class="devices-list">
+                    <div class="device-item">
+                        <i class="fas fa-tv"></i>
+                        <div>
+                            <h3>Smart TV</h3>
+                            <p>Watch on your big screen with our Smart TV app</p>
+                        </div>
+                    </div>
+                    <div class="device-item">
+                        <i class="fas fa-laptop"></i>
+                        <div>
+                            <h3>Computer</h3>
+                            <p>Stream directly from your web browser</p>
+                        </div>
+                    </div>
+                    <div class="device-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div>
+                            <h3>Mobile & Tablet</h3>
+                            <p>Take your entertainment on the go</p>
+                        </div>
+                    </div>
+                    <div class="device-item">
+                        <i class="fas fa-gamepad"></i>
+                        <div>
+                            <h3>Gaming Console</h3>
+                            <p>Available on PlayStation, Xbox, and more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Users Say</h2>
+                <p>Join millions of satisfied subscribers worldwide</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The best streaming service I've ever used. The content library is amazing and the video
+                            quality is outstanding!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100"
+                            alt="Sarah Johnson">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>Premium Subscriber</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Love the offline download feature. Perfect for my daily commute and travels. Highly
+                            recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=100"
+                            alt="Mike Chen">
+                        <div>
+                            <h4>Mike Chen</h4>
+                            <p>Standard Subscriber</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Great value for money. The family plan works perfectly for our household. Kids love the
+                            parental controls!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=100"
+                            alt="Emily Davis">
+                        <div>
+                            <h4>Emily Davis</h4>
+                            <p>Family Subscriber</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-text">
+                    <h2>Download Our App</h2>
+                    <p>Get the Watch Tube TV app on your mobile device for the ultimate streaming experience. Download
+                        shows and movies to watch offline, get personalized recommendations, and enjoy seamless
+                        streaming wherever you go.</p>
+                    <div class="download-buttons">
+                        <a href="#" class="download-btn">
+
+                        </a>
+                        <a href="#" class="download-btn">
+
+                    </div>
+                </div>
+                <div class="download-image">
+                    <img src="https://cdn.dribbble.com/users/3889413/screenshots/20409755/107_-_live_streaming_movies___shows_web___mobile_app_-_ui_ux_design_-_figma_-_2x.png"
+                        alt="Mobile App">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about our service</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is Watch Tube TV?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Watch Tube TV is a streaming service that offers a wide variety of award-winning TV shows,
+                            movies, anime, documentaries and more on thousands of internet-connected devices.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How much does Watch Tube TV cost?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Watch Watch Tube TV on your smartphone, tablet, Smart TV, laptop, or streaming device, all
+                            for one fixed monthly fee. Plans range from $8.99 to $17.99 a month. No extra costs, no
+                            contracts.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Where can I watch?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Watch Tube TV
+                            account to watch instantly on the web or on any internet-connected device.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I cancel?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Watch Tube TV is flexible. There are no pesky contracts and no commitments. You can easily
+                            cancel your account online in two clicks. There are no cancellation fees.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What can I watch on Watch Tube TV?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Watch Tube TV has an extensive library of feature films, documentaries, TV shows, anime,
+                            award-winning Watch Tube TV originals, and more. Watch as much as you want, anytime you
+                            want.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Watch Tube TV</h3>
+                    <p>Your premier destination for unlimited streaming entertainment.</p>
+
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#plans">Pricing</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">System Status</a></li>
+                        <li><a href="#">Report Issue</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="refund.html">Refund Policy</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Watch Tube TV. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
